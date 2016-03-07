@@ -8,7 +8,7 @@ make you a more efficient developer.
 TOC
 
 - [Documentation](http://bourbon.io/docs)
-- [Change log](NEWS.md)
+- [Change log](CHANGELOG.md)
 
 Follow [@bourbonsass](https://twitter.com/bourbonsass) on Twitter for updates.
 
@@ -20,9 +20,6 @@ Follow [@bourbonsass](https://twitter.com/bourbonsass) on Twitter for updates.
 - Sass 3.4+ or LibSass 3.3+
 
 ## Installation
-
-For command line help, visit our wiki page on Bourbon’s
-[command line interface][cli].
 
 1. Install the Bourbon gem using the [RubyGems] package manager:
 
@@ -132,6 +129,51 @@ your project.
 
 1. Follow the [instructions above](#installation) to install Bourbon into
    your project.
+
+## Command Line Interface
+
+```bash
+bourbon [options]
+```
+
+### Options
+
+Describe the available commands:
+```bash
+-h, --help
+```
+
+Show the installed Bourbon version:
+```bash
+-v, --version
+```
+
+Specify a custom path:
+```bash
+--path
+```
+
+Force install (overwrite):
+```bash
+--force
+```
+
+### Commands
+
+Install the Bourbon library into the _current_ directory:
+```bash
+bourbon install
+```
+
+Delete and regenerate the Bourbon library in the _current_ directory:
+```bash
+bourbon update
+```
+
+Describe the available commands:
+```bash
+bourbon help
+```
 
 ## Browser support
 
