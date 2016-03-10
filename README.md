@@ -5,8 +5,6 @@
 [Bourbon] is a library of pure [Sass] mixins and functions that are designed to
 make you a more efficient developer.
 
-TOC
-
 - [Documentation](http://bourbon.io/docs)
 - [Change log](CHANGELOG.md)
 
