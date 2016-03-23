@@ -2,10 +2,10 @@
 
 /// Increments up or down a defined scale and returns an adjusted value. This
 /// helps establish consistent measurements and spacial relationships throughout
-/// your project. We provide a list of commonly used scales as
-/// [pre-defined variables][scales].
+/// your project.
 ///
-/// [scales]: https://github.com/thoughtbot/bourbon/blob/master/core/bourbon/settings/_scales.scss
+/// @link https://github.com/thoughtbot/bourbon/blob/master/core/bourbon/helpers/_scales.scss
+///   We provide a list of commonly used scales as pre-defined variables.
 ///
 /// @argument {number (unitless)} $increment
 ///   How many steps to increment up or down the scale.
